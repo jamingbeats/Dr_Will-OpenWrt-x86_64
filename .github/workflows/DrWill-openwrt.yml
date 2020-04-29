@@ -9,6 +9,7 @@
 name: DrWill-OpenWrt
 
 on:
+  repository_dispatch:
   release:
     types: [published]
   push:
